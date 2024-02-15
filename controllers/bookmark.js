@@ -27,9 +27,21 @@ router.delete('/:id', async (req, res) => {
     }
 })
 
+router.get('/:id', async (req, res) => {
+    try{
+        res.json(await Bookmarks.findById(req.params.id))
+    } catch (err) {
+        res.status(400).json(err)
+    }
+})
 
-
-
+router.get('/:id', async (req, res) => {
+    try{
+        res.json(await Bookmarks.findByIdAndUpdate(req.params.id, req.body))
+    } catch (err) {
+        res.status(400).json(err)
+    }
+})
 
 
 
