@@ -9,5 +9,7 @@
 -CA: Pushed branch "CA" with database connection and will request merge to DEV after Taz merges.
 
 -JRK: Initial set up. Sending branch to repo
-
 -JRK: Schema is built and connected
+
+# Bonus
+CA: Added user schema to the backend, wont merge without team vote to use or not.
