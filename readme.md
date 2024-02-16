@@ -7,3 +7,5 @@
 
 -CA: Added in mongodb database connection into .env file and built connection model.
 -CA: Pushed branch "CA" with database connection and will request merge to DEV after Taz merges.
+
+-JRK: Initial set up. Sending branch to repo
