@@ -34,8 +34,8 @@ router.get('/:id', async (req, res) => {
         res.status(400).json(err)
     }
 })
-
-router.get('/:id', async (req, res) => {
+// corrected the router as it was a get and not a put 
+router.put('/:id', async (req, res) => {
     try{
         res.json(await Bookmarks.findByIdAndUpdate(req.params.id, req.body))
     } catch (err) {
