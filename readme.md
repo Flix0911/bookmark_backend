@@ -1,13 +1,16 @@
-# Team Tracker:
+# Team contributors
 
-### 2/15/2024
+- Taz Campbell
+- Jason Kulak
+- Haley Zitzmann
+- Christian Alexander
+- Erick Valencia
 
--EV: Completed file structure, dependencies installed, dependencies used, middleware set up, .env MISSING DATABASEURL, and .gitignore created and filled in
--EV: Pushed branch 'filestructure' up and requested merge to Dev branch to HZ
+### Technology used
 
--CA: Added in mongodb database connection into .env file and built connection model.
--CA: Pushed branch "CA" with database connection and will request merge to DEV after Taz merges.
+- Language used: Javascript
+- Dependencies: Express, dotenv, mongoose, morgan, and cors
 
--JRK: Initial set up. Sending branch to repo
+#### Deployed site:
 
--JRK: Schema is built and connected
+- Deployed website: https://bookmark-backend-gtdb.onrender.com/
